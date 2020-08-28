@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/buttonFragment"
+        android:name="com.amartinez.bairesdev.ui.ButtonFragment"
+        android:label="ButtonFragment" />
+    <fragment
+        android:id="@+id/githubFragment"
+        android:name="com.amartinez.bairesdev.ui.GithubFragment"
+        android:label="GithubFragment" />
+    <fragment
+        android:id="@+id/googleFragment"
+        android:name="com.amartinez.bairesdev.ui.GoogleFragment"
+        android:label="GoogleFragment" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.amartinez.bairesdev.ui.BlankFragment"
+        android:label="BlankFragment" />
+</navigation>
